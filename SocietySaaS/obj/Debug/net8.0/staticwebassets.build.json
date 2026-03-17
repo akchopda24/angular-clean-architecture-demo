@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "fKDPwoNf8CEHlXfyhzJiqAm79NRgGJB3lCyoLUevp9A=",
+  "Source": "SocietySaaS.API",
+  "BasePath": "_content/SocietySaaS.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

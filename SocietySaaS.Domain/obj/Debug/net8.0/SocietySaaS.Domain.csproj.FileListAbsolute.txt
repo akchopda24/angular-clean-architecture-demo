@@ -1,0 +1,11 @@
+D:\demo\Society-SAAS\SocietySaaS\SocietySaaS.Domain\bin\Debug\net8.0\SocietySaaS.Domain.deps.json
+D:\demo\Society-SAAS\SocietySaaS\SocietySaaS.Domain\bin\Debug\net8.0\SocietySaaS.Domain.dll
+D:\demo\Society-SAAS\SocietySaaS\SocietySaaS.Domain\bin\Debug\net8.0\SocietySaaS.Domain.pdb
+D:\demo\Society-SAAS\SocietySaaS\SocietySaaS.Domain\obj\Debug\net8.0\SocietySaaS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\demo\Society-SAAS\SocietySaaS\SocietySaaS.Domain\obj\Debug\net8.0\SocietySaaS.Domain.AssemblyInfoInputs.cache
+D:\demo\Society-SAAS\SocietySaaS\SocietySaaS.Domain\obj\Debug\net8.0\SocietySaaS.Domain.AssemblyInfo.cs
+D:\demo\Society-SAAS\SocietySaaS\SocietySaaS.Domain\obj\Debug\net8.0\SocietySaaS.Domain.csproj.CoreCompileInputs.cache
+D:\demo\Society-SAAS\SocietySaaS\SocietySaaS.Domain\obj\Debug\net8.0\SocietySaaS.Domain.dll
+D:\demo\Society-SAAS\SocietySaaS\SocietySaaS.Domain\obj\Debug\net8.0\refint\SocietySaaS.Domain.dll
+D:\demo\Society-SAAS\SocietySaaS\SocietySaaS.Domain\obj\Debug\net8.0\SocietySaaS.Domain.pdb
+D:\demo\Society-SAAS\SocietySaaS\SocietySaaS.Domain\obj\Debug\net8.0\ref\SocietySaaS.Domain.dll

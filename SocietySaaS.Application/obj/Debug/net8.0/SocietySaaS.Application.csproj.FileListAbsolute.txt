@@ -1,0 +1,15 @@
+D:\demo\Society-SAAS\SocietySaaS\SocietySaaS.Application\obj\Debug\net8.0\SocietySaaS.Application.csproj.AssemblyReference.cache
+D:\demo\Society-SAAS\SocietySaaS\SocietySaaS.Application\obj\Debug\net8.0\SocietySaaS.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\demo\Society-SAAS\SocietySaaS\SocietySaaS.Application\obj\Debug\net8.0\SocietySaaS.Application.AssemblyInfoInputs.cache
+D:\demo\Society-SAAS\SocietySaaS\SocietySaaS.Application\obj\Debug\net8.0\SocietySaaS.Application.AssemblyInfo.cs
+D:\demo\Society-SAAS\SocietySaaS\SocietySaaS.Application\obj\Debug\net8.0\SocietySaaS.Application.csproj.CoreCompileInputs.cache
+D:\demo\Society-SAAS\SocietySaaS\SocietySaaS.Application\bin\Debug\net8.0\SocietySaaS.Application.deps.json
+D:\demo\Society-SAAS\SocietySaaS\SocietySaaS.Application\bin\Debug\net8.0\SocietySaaS.Application.dll
+D:\demo\Society-SAAS\SocietySaaS\SocietySaaS.Application\bin\Debug\net8.0\SocietySaaS.Application.pdb
+D:\demo\Society-SAAS\SocietySaaS\SocietySaaS.Application\bin\Debug\net8.0\SocietySaaS.Domain.dll
+D:\demo\Society-SAAS\SocietySaaS\SocietySaaS.Application\bin\Debug\net8.0\SocietySaaS.Domain.pdb
+D:\demo\Society-SAAS\SocietySaaS\SocietySaaS.Application\obj\Debug\net8.0\SocietyS.EDE46FB2.Up2Date
+D:\demo\Society-SAAS\SocietySaaS\SocietySaaS.Application\obj\Debug\net8.0\SocietySaaS.Application.dll
+D:\demo\Society-SAAS\SocietySaaS\SocietySaaS.Application\obj\Debug\net8.0\refint\SocietySaaS.Application.dll
+D:\demo\Society-SAAS\SocietySaaS\SocietySaaS.Application\obj\Debug\net8.0\SocietySaaS.Application.pdb
+D:\demo\Society-SAAS\SocietySaaS\SocietySaaS.Application\obj\Debug\net8.0\ref\SocietySaaS.Application.dll

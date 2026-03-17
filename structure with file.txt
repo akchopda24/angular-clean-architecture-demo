@@ -1,0 +1,111 @@
+SocietySaaS.sln
+├── SocietySaaS (API)
+│   ├── Controllers
+│   │   ├── BuildingsController.cs
+│   │   ├── FloorsController.cs
+│   │   ├── SocietiesController.cs
+│   │   └── WeatherForecastController.cs
+│   ├── Middleware
+│   │   ├── ApiErrorResponse.cs
+│   │   ├── ExceptionHandlingMiddleware.cs
+│   │   └── TenantMiddleware.cs
+│   ├── Services
+│   │   ├── TenantResolver.cs
+│   │   └── UserContext.cs
+│   └── Properties
+│       └── launchSettings.json
+├── SocietySaaS.Application
+│   ├── Common
+│   │   ├── Behaviors
+│   │   │   ├── TransactionBehavior.cs
+│   │   │   └── ValidationBehavior.cs
+│   │   ├── Exceptions
+│   │   │   └── NotFoundException.cs
+│   │   ├── Interfaces
+│   │   │   ├── IBuildingRepository.cs
+│   │   │   ├── IFloorRepository.cs
+│   │   │   ├── IRepository.cs
+│   │   │   ├── ISocietyRepository.cs
+│   │   │   ├── IUnitOfWork.cs
+│   │   │   └── IUserContext.cs
+│   │   ├── Mappings
+│   │   └── Validators
+│   │       ├── CreateSocietyCommandValidator.cs
+│   │       └── UpdateSocietyCommandValidator.cs
+│   └── Features
+│       ├── Buildings
+│       │   ├── Commands
+│       │   │   └── CreateBuilding
+│       │   │       ├── CreateBuildingCommand.cs
+│       │   │       └── CreateBuildingCommandHandler.cs
+│       │   ├── DTOs
+│       │   │   ├── BuildingResponse.cs
+│       │   │   ├── CreateBuildingRequest.cs
+│       │   │   └── UpdateBuildingRequest.cs
+│       │   └── Queries
+│       │       ├── GetBuildingsQuery.cs
+│       │       └── GetBuildingsQueryHandler.cs
+│       ├── Floors
+│       │   ├── Commands
+│       │   │   ├── CreateFloor
+│       │   │   │   ├── CreateFloorCommand.cs
+│       │   │   │   └── CreateFloorCommandHandler.cs
+│       │   │   ├── DeleteFloor
+│       │   │   │   ├── DeleteFloorCommand.cs
+│       │   │   │   └── DeleteFloorCommandHandler.cs
+│       │   │   └── UpdateFloor
+│       │   │       ├── UpdateFloorCommand.cs
+│       │   │       └── UpdateFloorCommandHandler.cs
+│       │   ├── DTOs
+│       │   │   ├── CreateFloorDto.cs
+│       │   │   ├── FloorDto.cs
+│       │   │   └── UpdateFloorDto.cs
+│       │   └── Queries
+│       │       ├── GetFloorsByBuildingQuery.cs
+│       │       └── GetFloorsByBuildingQueryHandler.cs
+│       └── Societies
+│           ├── Commands
+│           │   ├── CreateSociety
+│           │   │   ├── CreateSocietyCommand.cs
+│           │   │   └── CreateSocietyCommandHandler.cs
+│           │   └── UpdateSociety
+│           │       ├── UpdateSocietyCommand.cs
+│           │       └── UpdateSocietyCommandHandler.cs
+│           ├── DTOs
+│           │   ├── CreateSocietyRequest.cs
+│           │   ├── SocietyResponse.cs
+│           │   └── UpdateSocietyRequest.cs
+│           └── Queries
+│               └── GetSocieties
+│                   ├── GetSocietiesQuery.cs
+│                   └── GetSocietiesQueryHandler.cs
+├── SocietySaaS.Domain
+│   ├── Common
+│   │   └── BaseEntity.cs
+│   └── Entities
+│       ├── Building.cs
+│       ├── Floor.cs
+│       ├── Society.cs
+│       ├── Tenant.cs
+│       └── Unit.cs
+├── SocietySaaS.Infrastructure
+│   ├── Interceptors
+│   │   └── AuditSaveChangesInterceptor.cs
+│   ├── Middleware
+│   │   └── GlobalExceptionMiddleware.cs
+│   ├── Persistence
+│   │   ├── ApplicationDbContext.cs
+│   │   ├── ApplicationDbContextFactory.cs
+│   │   ├── UnitOfWork.cs
+│   │   └── Migrations
+│   │       ├── 20260302083051_InitialCreate.cs
+│   │       ├── 20260302083051_InitialCreate.Designer.cs
+│   │       └── ApplicationDbContextModelSnapshot.cs
+│   ├── Repositories
+│   │   ├── BuildingRepository.cs
+│   │   ├── FloorRepository.cs
+│   │   ├── Repository.cs
+│   │   └── SocietyRepository.cs
+│   └── Tenant
+│       ├── ITenantProvider.cs
+│       └── TenantProvider.cs
